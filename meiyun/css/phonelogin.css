@@ -1,0 +1,109 @@
+.main{
+	margin:0 auto;
+	text-align: center;
+}
+.main h2{
+	margin-bottom:2rem;
+}
+.name,.proving,.pwd{
+	height: 0.6rem;
+    text-indent: 0.8rem;
+    vertical-align: super;
+    font-size: 0.33rem;
+    color: #999;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color:transparent transparent #ddd transparent;
+	outline: none;
+	margin-bottom:0.8rem;
+}
+.name{
+	width:6rem;
+	background: url(../images/phone.png) no-repeat 0.3rem center ;
+	background-size:0.31rem 0.48rem;
+}
+.proving{
+	width:4rem;
+	background: url(../images/message.png) no-repeat 0.24rem center ;
+	background-size:0.48rem 0.33rem; 
+}
+
+.pwd{
+	width:6rem;
+	background: url(../images/lock.png) no-repeat 0.24rem center ;
+	background-size:0.48rem 0.33rem;
+	margin-bottom:.1rem;
+}
+
+.forget{
+	width: 6rem;
+	margin: 0 auto;
+	text-align: right;
+	color: #999;
+	font-size: .2rem;
+	margin-bottom: .5rem;
+}
+
+.warn{
+	width:6rem;
+	margin:0 auto 1rem auto;
+	color:#bbb;
+	text-align:left;
+}
+.sumbit{
+	width:6rem;
+	display: block;
+	margin:0 auto;
+	background: rgb(42, 185, 202);
+	border:0;
+	outline: none;
+	height:1rem;
+	font-size:0.43rem;
+	color:#fff;
+	margin-bottom:1rem;
+}
+.other{
+	color:rgb(42, 185, 202);
+	font-size:0.3rem;
+}
+.othersbox{
+	margin-top:4rem;
+}
+.support{
+	width:6rem;
+	border:1px solid #ddd;
+	position: relative;
+	margin: 0 auto;
+	font-size:0.33rem;
+}
+.support:after{
+	content:"第三方账号登录";
+	color:#999;
+	position: absolute;
+	left:50%;
+	top:0;
+	padding:0.2rem;
+	background:#fff;
+	transform: translate(-50% ,-50%);
+	-webkit-transform: translate(-50% ,-50%);
+}
+.othersbox ul{
+	margin-top:1rem;
+	font-size:0;
+}
+.othersbox li{
+	display: inline-block;
+	width:1.28rem;
+
+}
+.othersbox .wx a{
+	display: inline-block;
+	width:100%;
+	padding-top:1.5rem;
+	background: url(../images/wx.png) no-repeat top center;
+	background-size:1.28rem; 
+	font-size: 0.3rem;
+	color:#333;
+
+}

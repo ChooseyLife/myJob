@@ -1,0 +1,6 @@
+/*常用按钮*/
+.btn{width: 6rem;display: block;margin: 0 auto;background: rgb(42, 185, 202);border: 0;outline: none;height: 1rem;font-size: 0.43rem;color: #fff;margin-bottom: 1rem;}
+/*预约按钮*/
+.btn-bor-BB7AC{border: 1px solid #1BB7AC;color: #1BB7AC;width: 2rem;display: inline-block;}
+/*验证按钮*/
+.btn-val{display: inline-block;width: 2rem;font-size:0.3rem;}

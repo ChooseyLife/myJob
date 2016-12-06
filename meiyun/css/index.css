@@ -1,0 +1,18 @@
+.bottom_box{
+	overflow: hidden;
+	position: fixed;
+	bottom:0;
+	left:0;
+	border-top:1px solid #ddd;
+	right:0;
+}
+.bottom_box li{
+	float: left;
+	width:25%;
+	text-align: center;
+	padding-top:0.4rem;
+	padding-bottom:0.1rem;
+}
+.bottom_box li.on{
+	color:#0BDBAC;
+}
