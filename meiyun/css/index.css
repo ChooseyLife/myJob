@@ -1,3 +1,168 @@
+/*首页*/
+.home_page{
+	display: block;
+}
+/*精选*/
+.choice_box{
+	display: none;
+}
+/*预约*/
+.bespeak_box{
+	display: none;
+}
+/*我的*/
+.bottom_box{
+	display: block;
+	background: #fff;
+	z-index:999;
+}
+.title_box{
+	height:0.5rem;
+	border-bottom: 1px solid red;
+}
+.title_box .back{
+	display: inline-block;
+    height: 100%;
+    width: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.head{
+	position: relative;
+	height:3rem;
+}
+.head_top{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:4;
+}
+.home_page .nav_box{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	height:3rem;
+	background:red;
+	z-index:3;
+}
+.swiper-container,.swiper-container2{
+	height:100%;
+}
+.project_box{
+	list-style: none;
+	overflow: hidden;
+}
+.project_box li{
+	float: left;
+	padding-top:0.5rem;
+	width:20%;
+	text-align: center;
+}
+.Package_box{
+
+}
+.Package_box a{
+	display: inline-block;
+	width:49%;
+	height:1.5rem;
+}
+.before{
+	position: relative;
+	padding-left:0.3rem;
+}
+.before:before{
+	content: "";
+	position: absolute;
+	left:0.1rem;
+	top:50%;
+	border:1px solid #1bb7ac;
+	display: inline-block;
+	width:0.05rem;
+	height:0.15rem;
+	background: #1bb7ac;
+	transform:translateY(-50%);
+}
+.propagate_box1{
+	height:4rem;
+	background:red;
+}
+.mor{
+	color:#1bb7ac;
+	float: right;
+}
+.hot_box{
+	overflow: hidden;
+}
+.big_hot{
+	width:49%;
+	height:1.5rem;
+	display: inline-block;
+	background: blue;
+
+}
+.hot li{
+	float: left;
+	width:16%;
+	height:0.8rem;
+	background:green;
+}
+.choice_box .banner{
+	height:0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	border-bottom:1px solid #ddd;
+}
+.propagate_title{
+	display: inline-block;
+}
+.choice_box .nav_box{
+	overflow: hidden;
+}
+.choice_box .nav_box li{
+	float: left;
+	width:50%;
+	height:0.5rem;
+	border-bottom:2px solid transparent;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.choice_box .nav_box li.on{
+	color:#fc8f25;
+	border-bottom:2px solid #fc8f25;
+}
+.choice_box .culling{
+	overflow: hidden;
+}
+.store{
+	height:2.5rem;
+}
+.choice_box .culling li{
+	float: left;
+	height:1rem;
+	width:50%;
+	background: blue;
+}
+.choice_box .culling li span{
+	display: block;
+	width: 100%;
+	height:50%;
+	background: yellow;
+}
+.bespeak_box>.title{
+	height:0.8rem;
+	line-height:0.8rem;
+	text-align: center;
+	position: relative;
+}
+.bespeak_box>.title span{
+	position: absolute;
+	right:0;
+	top:0;
+	display: inline-block;
+	height:0.8rem;
+	border-bottom:1px solid #ddd;
+}
 .bottom_box{
 	overflow: hidden;
 	position: fixed;
