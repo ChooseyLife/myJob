@@ -1,0 +1,39 @@
+body{
+	background-color: #eee;
+}
+.style_box{
+	overflow: hidden;
+	background: #eee;
+
+}
+.style_list{
+	width:48.5%;
+	margin:0.2rem 1% 0;
+	background: #fff;
+	float: left;
+}
+.style_list:nth-child(2n){
+	margin:0.2rem 1% 0 0%;
+}
+.style_list img{
+	width: 100%;
+	height:6rem;
+	background: red;
+}
+.style_list .name{
+	margin:0.2rem 0;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #000;
+}
+.style_list .number{
+	text-align: center;
+	color:#ec6e11;
+	font-size:0.32rem;
+	padding-bottom:0.2rem;
+}
+.style_list .number span{
+	margin-left:0.2rem;
+	color:#000;
+	font-size: 0.19rem;
+}

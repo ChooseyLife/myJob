@@ -1,0 +1,59 @@
+.main{
+	margin-bottom:1.4rem;
+}
+.before.on{
+	background: #eee;
+}
+.phone_box{
+	padding:0.4rem;
+}
+.phone_box li{
+	font-size: 0.28rem;
+	margin-bottom:0.4rem;
+}
+.phone_box em,.phone_box i{
+	float: right;
+	margin-right:0.2rem;
+}
+.order_box{
+	padding:0.4rem 0 0.4rem 0.4rem;
+}
+.order_box dt{
+	border-bottom:1px solid #ddd;
+	padding-bottom:0.2rem;
+	margin-bottom: 0.2rem;
+}
+.order_box dt>span{
+	display: inline-block;
+	width:0.8rem;
+	height:0.8rem;
+	background:red;
+	border-radius:999px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.order_box dt>p{
+	vertical-align: middle;
+	display: inline-block;
+}
+.price{
+	text-align: right;
+}
+.order_box dd{
+	padding:0.2rem  0.4rem 0.2rem 0; 
+}
+.order_box dd span{
+	float: right;
+}
+.submit_box{
+	width:10rem;
+	height:1.4rem;
+	line-height: 1.4rem;
+	font-size: 0.5rem;
+	background:#1bb7ac ;
+	color:#fff;
+	text-align: center;
+	position: fixed;
+	bottom:0;
+	left:0;
+}

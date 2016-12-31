@@ -1,0 +1,38 @@
+.store_box{
+	display: table;
+	border-bottom:1px solid #ddd;
+	height:1.2rem;
+	width:100%;
+}
+.store_box p,.store_box a,.store_box>span{
+	display: table-cell;
+	vertical-align: middle;
+}
+.store_box>span{
+	width:0.6rem;
+	border-right:1px solid red;
+	vertical-align:middle;
+	display: none;
+	text-align: center;
+}
+.store_box p span{
+	display: block;
+	margin-bottom:0.2rem;
+	margin-left:0.4rem;
+
+}
+.store_box p span:nth-child(1){
+	font-size: 0.27rem;
+	font-weight: bold;
+}
+.store_box a{
+	width:0.6rem;
+	vertical-align: middle;
+}
+.store_box p span i{
+	background: #eee;
+	color:#fff;
+	font-size: 0.15rem;
+	vertical-align: bottom;
+	margin-left:0.2rem;
+}

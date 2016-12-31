@@ -1,0 +1,25 @@
+.active{
+    color:#ff9c05;
+    border-bottom:.1rem solid #ff9c05;
+}
+.order-head ul{
+    overflow: hidden;
+    border-bottom:.02rem solid #cccccc;
+    background:#fff;
+}
+.order-head li {
+    width:25%;
+    text-align: center;
+    padding:.3rem 0;
+    float: left;
+}
+.order-content{
+    position: relative;
+}
+.order-content .no-order{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-2rem;
+    margin-top:4rem;
+}

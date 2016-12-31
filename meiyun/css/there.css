@@ -1,0 +1,44 @@
+body{
+	background: #eee;
+}
+
+.head2{
+	background: #fff;
+}
+.store_box,.operate_box,.traffic_box{
+	padding:0.4rem;
+	background: #fff;
+	margin-bottom:0.2rem;
+}
+.storename{
+	font-size:0.4rem;
+	margin-bottom:0.2rem;
+	font-weight: 600;
+}
+.store_explain{
+	display: table;
+
+}
+.store_explain span:nth-child(1){
+	display: table-cell;
+	width:0.8rem;
+}
+.store_explain span:nth-child(2){
+	display: table-cell;
+}
+.title{
+	border-bottom:1px solid #ddd;
+	font-size:0.4rem;
+	padding-bottom:0.1rem;
+	font-weight: 600;
+}
+
+.traffic_box p:nth-child(1){
+	font-size: 0.4rem;
+	border-bottom:1px solid #ddd;
+	padding-bottom:0.1rem;
+}
+.map{
+	background: red;
+	height:5rem;
+}

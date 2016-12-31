@@ -1,0 +1,77 @@
+.main{
+	padding-bottom:1rem;
+}
+.task_box{
+	border-bottom:1px solid #ddd;
+	overflow: hidden;
+	width:100%;
+}
+.task_box li{
+	float: left;
+	width:33.3%;
+	text-align: center;
+	padding-top:2rem;
+}
+.task_box li:nth-child(2){
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.title_box{
+	border-bottom:1px solid #ddd;
+	overflow: hidden;
+	width:100%;
+	height: 0.8rem;
+}
+.title_box li{
+	float: left;
+	width:33.3%;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.news_box{
+	overflow: hidden;
+	width:100%;
+	border-bottom:1px solid #ddd;
+}
+.news_box .news_title{
+	margin-right:2rem;
+	height:3rem;
+}
+.news_title{
+	padding:0.4rem;
+}
+.news_title h3{
+	line-height: 0.5rem;
+	width:80%;
+	height:1.6rem;
+	overflow: hidden;
+	font-size: 0.5rem;
+}
+.news_title>span{
+	color:#ddd;
+	font-size:0.2rem;
+}
+.news_box>span{
+	float: right;
+	width:2rem;
+	height:3rem;
+	background: red;
+}
+.bottom_box{
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:1rem;
+	overflow: hidden;
+	border-top:1px solid #ddd;
+	background:blue;
+}
+.bottom_box dd{
+	float: left;
+	width:50%;
+	line-height:1rem;
+	text-align: center;
+	border-left:1px solid #ddd;
+	margin-left:-1px;
+}

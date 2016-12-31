@@ -1,0 +1,57 @@
+.center{
+    text-align: center;
+}
+.fav-box{
+    overflow: hidden;
+}
+.fav-opus{
+    display: inline-block;
+    float: left;
+    margin: 0 1% 1% 1%;
+    width: 48%;
+    text-align: center;
+}
+.opus-img{
+    width:100%;
+    height: 6rem;
+}
+
+.fav-img{
+    display: inline-block;
+    width:20%;
+    height: auto;
+    border-radius: 1rem;
+    margin:.2rem 0 0 .2rem
+}
+.fav-img img{
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    border-radius: 1.3rem;
+    height: auto;
+}
+.fav-name{
+    height:1.3rem;
+}
+.fav-conten{
+    display: inline-block;
+    padding:.2rem;
+    border-bottom:.02rem solid #ddd;
+    width:76%;
+    font-size:.4rem;
+    color:#c0c0c0;
+}
+.fav-start{
+    text-align: right;
+    background:url("../images/start.png")no-repeat;
+}
+.fav-cost{
+    color:rgb(247,165,22);
+    font-size:.4rem;
+}
+.opus-name{
+    font-size:.3rem;
+}
+.opus-assess{
+    color:#c0c0c0;
+}

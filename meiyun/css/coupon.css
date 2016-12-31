@@ -1,0 +1,102 @@
+body{
+    background: #e9e9e9;
+}
+.bg-white{background-color:#fff;}
+.head2 {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.35rem;
+    background: #fff;
+}
+.back2 {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.current{
+    color:#ff9c05;
+}
+.slide{
+     position: absolute;
+     bottom: -.08rem;
+     border-bottom: .08rem solid #ff9c05;
+     -webkit-transition: left .2s ease-in;
+    left:0;
+    width:50%;
+ }
+.green{display:inline-block;color: green;font-size: .3rem;width: 10%;text-align: center;}
+.convert{
+    padding:.2rem;
+    margin:.1rem;
+    border:.02rem solid #ddd;
+    border-radius: .1rem;
+    background-color:#e9e9e9;
+    width:86%;
+}
+.taba{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: relative;
+    border-bottom: .08rem solid #DDD8CE;
+    background:#fff;
+}
+
+nav{border-top:.02rem solid #ddd;}
+nav li{
+    display: block;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    position: relative;
+    padding-top: .28rem;
+    padding-bottom: .2rem;
+    font-size: .4rem;
+}
+.coupon-list{
+    padding:.3rem;
+    background:#e9e9e9;
+
+}
+.coupon-cont{
+    position: relative;
+    background-color:#0BDBAC;
+    color: #fff;
+    padding:.2rem;
+    border:.02rem solid #ddd;
+    border-top-left-radius:.2rem;
+    border-top-right-radius:.2rem;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+.coupon-tit{
+    display:inline-block;
+}
+.cost{
+    font-size:.02rem;
+}
+.coupon-value{
+    font-size:.7rem;
+}
+.coupon-right{
+    position: absolute;
+    top:.2rem;
+    right:.3rem;
+    text-align: right;
+    font-size:.3rem;
+}
+
+.coupon-illustrate{
+    padding:.2rem;
+    background:#fff;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0.2rem;
+    border-bottom-left-radius:0.2rem;
+}

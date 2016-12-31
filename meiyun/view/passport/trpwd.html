@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置支付密码</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <script src="../../js/css/flexible.js"></script>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/button.css">
+    <link rel="stylesheet" href="../../css/trpwd.css">
+    <script src="../../js/person/trpwd.js"></script>
+    <style>body{background-color:rgb(244,245,247);}</style>
+</head>
+<script>
+    function init(){
+        var width=$(window).width();
+        var height=$(window).height();
+        $("body").css("height",height);
+        $("body").css("width",width);
+    }
+    window.addEventListener('load', function() {
+        FastClick.attach(document.body);
+    }, false);
+</script>
+<body>
+<div>
+    <div class="head2">
+        <span class="back2"><</span>身份验证
+    </div>
+    <div style="text-align: center;padding-top: 10px;"><span id="set_text" style="font-size: large;"></span></div>
+    <div style="padding-top: 20px;text-align: center;">
+        <form id="password" >
+            <input readonly class="pass" type="password" maxlength="1" value=""><input readonly class="pass" type="password" maxlength="1" value=""><input readonly class="pass" type="password" maxlength="1" value=""><input readonly class="pass" type="password" maxlength="1" value=""><input readonly class="pass" type="password" maxlength="1" value=""><input readonly class="pass pass_right" type="password" maxlength="1" value="">
+        </form>
+    </div>
+</div>
+<div id="keyboardDIV"></div>
+<script src="../../js/jquery-1.12.3.min.js"></script>
+<script src="../../js/global.js"></script>
+<script type="text/javascript" src="../../js/person/ladingPasswordConfirm.js"></script>
+</body>
+</html>

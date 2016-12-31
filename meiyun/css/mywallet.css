@@ -1,0 +1,97 @@
+.w50c{
+    display: inline-block;
+    width:49%;
+    height:1rem;
+    text-align: center;
+}
+.wallet{
+    padding: .2rem .2rem 0;
+    background:#fff;
+}
+.wallet-tit{
+    font-size:.2rem;
+    color:#c0c0c0;
+}
+.wallet-buy{
+    position: relative;
+}
+.wallet-num{
+    margin-top:.3rem;
+    padding-bottom:.2rem;
+    color:rgb(255,80,0);
+    font-size:.6rem;
+    background:url("../images/wallet-check.png")no-repeat 97% center;
+    border-bottom:.02rem solid #ddd;
+}
+.recharge{
+    background:url("../images/recharge.png")no-repeat center center;
+}
+.recharge:after{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:50%;
+    border:.02rem solid #ccc;
+    display: inline-block;
+    width:0.01rem;
+    height:0.4rem;
+    background: #ccc;
+    transform:translateY(-50%);
+
+}
+.sc-buy{
+    background: url("../images/sc-buy.png")no-repeat center center;
+}
+.wallet-sc{
+    position: relative;
+    padding:.2rem;
+    font-size:.35rem;
+}
+.wallet-sc-box{
+    text-align: center;
+    padding-top: .7rem ;
+    margin:.4rem auto 0;
+    background:rgb(238,238,238);
+    width:95%;
+    -webkit-border-radius:.4rem;
+    -moz-border-radius:.4rem;
+    border-radius:.4rem;
+}
+.wallet-sc-buy{
+    text-align: right;
+    padding: .3rem .5rem;
+    margin-top: .5rem;
+    background: rgb(226,226,226);
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+}
+.wallet-card{
+    position: relative;
+    margin-left: .3rem;
+    padding-left: .3rem;
+    font-size:.4rem;
+    color: rgb(190,190,190);
+}
+.wallet-card:before{
+    content: "";
+    position: absolute;
+    left:0.1rem;
+    top:50%;
+    border:1px solid #1bb7ac;
+    display: inline-block;
+    width:0.05rem;
+    height:0.15rem;
+    background: #1bb7ac;
+    transform:translateY(-50%);
+}
+
+.card-box{
+    position: relative;
+}
+.no-card{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-2rem;
+    margin-top:4rem;
+}

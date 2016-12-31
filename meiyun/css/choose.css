@@ -1,0 +1,44 @@
+.head{
+	vertical-align: middle;
+	padding:0.4rem;
+	background: #eee;
+}
+.head input{
+	width:80%;
+}
+.head .close{
+	display: inline-block;
+	width:18%;
+	text-align: right;
+	padding-right:0.2rem;
+}
+.technician_list{
+	padding:0.4rem 0 0 0.4rem;
+	overflow: hidden;
+}
+.technician_list .head{
+	float: left;
+	width:2rem;
+	height: 2rem;
+	border-radius: 999px;
+	overflow: hidden;
+}
+.technician_list .head img{
+	width:100%;
+	height:100%;
+}
+.explain{
+	border-bottom:1px  solid #ddd;
+	height:2rem;
+	margin-left:2rem;
+	position: relative;
+}
+.level{
+	position: absolute;
+	bottom:0.2rem;
+	left:0;
+	right:0.4rem;
+}
+.level span{
+	float: right;
+}

@@ -1,0 +1,23 @@
+body{
+	background: #fff;
+}
+.address_box{
+	background: #eee;
+	text-align: right;
+	overflow: hidden;
+	padding:0 1rem;
+}
+.city{
+	float: left;
+}
+.brand_box{
+	overflow: hidden;
+	list-style: none;
+}
+.brand_box li{
+	float: left;
+	width:25%;
+	height:1rem;
+	background:red;
+	border:1px solid #fff;
+}

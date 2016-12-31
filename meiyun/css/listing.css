@@ -1,0 +1,82 @@
+body{
+	background: #fff;
+}
+.filter_box{
+	width:100%;
+	font-size: 0;
+	background: #fff;
+	border-bottom:1px solid #ddd;
+}
+.filter_box dl{
+	display: inline-block;
+	font-size:0.2rem;
+	height:0.6rem;
+	line-height: 0.6rem;
+	border-right:1px solid #ddd;
+	width:33.3%;
+	text-align: center;
+	position: relative;
+}
+.head_nav{
+	display: inline-block;
+}
+.head_right{
+	position: absolute;
+	right:0;
+	top:0;
+}
+.filter_box dl:nth-child(3){
+	border-right:0px solid #ddd;
+}
+.list_box{
+	overflow: hidden;
+	border-bottom:1px solid #ddd;
+}
+.list_box .use_box{
+	float: left;
+	width:2.5rem;
+	display: inline-block;
+	text-align: right;
+	height:2rem;
+}
+.list_box .use_box img{
+	width: 2rem;
+	height:2rem;
+	background: red;
+	border-radius: 9999px;
+	border:0;
+	outline: none;
+}
+.name{
+	line-height: 0.6rem;
+	height:0.7rem;
+	overflow: hidden;
+}
+.name>span{
+	float: right;
+	color:#1bb7ac;
+	border:1px solid #1bb7ac;
+}
+.list_box .skill{
+	margin-left:3rem;
+	padding: 0.4rem 0.2rem 0 0;
+}
+.skill>p{
+
+}
+.pic img{
+	width:2rem;
+	margin:0 0.3rem 0.3rem 0;
+	height:2rem;
+	background: red;
+}
+.level{
+	padding:0.2rem 0;
+}
+.pic img:nth-child(3n){
+	margin:0 0 0.3rem 0 ;
+}
+.address>span{
+	float: right;
+	
+}

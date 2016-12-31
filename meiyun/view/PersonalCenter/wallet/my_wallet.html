@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的钱包</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <script src="../../../js/css/flexible.js"></script>
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/mywallet.css">
+    <style>body{background-color:rgb(244,245,247);}</style>
+</head>
+<body>
+<div class="head2">
+    <span class="back2"><</span>我的钱包
+    <span class="extend" reUrl="../../passport/security_setting.html">安全设置</span>
+</div>
+<div class="wallet">
+    <p class="wallet-tit">我的余额(元)</p>
+    <p class="wallet-num" reUrl="wallet_log.html">0.00</p>
+    <div class="wallet-buy">
+        <div class="w50c recharge" reUrl="wallet_recharge.html"></div>
+        <div class="w50c sc-buy" reUrl="once_card.html"></div>
+    </div>
+</div>
+<div class="wallet-sc">
+    <p class="wallet-card">我的次卡</p>
+    <div class="wallet-sc-box">
+        暂无可使用次卡
+        <p class="wallet-sc-buy" reUrl="once_card.html">
+            <img src="../../../images/clickbuy.png" />
+        </p>
+    </div>
+</div>
+<script src="../../../js/jquery-1.12.3.min.js"></script>
+<script src="../../../js/global.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.head2 {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.35rem;
+    background: #fff;
+}
+.back2 {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.mes-box{
+    overflow: hidden;
+}
+.mes-icon{
+    display: inline-block;
+    width: 11%;
+    height: 1rem;
+    margin-left:1%;
+}
+.icon-bell{
+    background:url(../images/bell_mes.png)no-repeat center center;
+    background-size:.9rem;
+    float:left;
+}
+.icon-sys{
+    background:url(../images/sys_mes.png)no-repeat center center;
+    background-size:.9rem;
+    float: left;
+}
+.message{
+    font-size: .3rem;
+    padding:.3rem;
+    padding-left:0;
+    display: inline-block;
+    width:88%;
+    float: left;
+    height:1rem;
+    border-bottom:.02rem solid #ddd;
+}
+.mes-tit{
+    height:1rem;
+    width:88%;
+    float:right;
+    font-size:.3rem;
+}
+.mes-time{
+    text-align: right;
+    display:inline-block;
+    width:84%;
+}
+.mes-cont{
+    margin-top:.2rem;
+}
+
+.mess-wrapper{
+    border-bottom:.02rem solid #999;
+}
+.box-tit{
+    display:inline-block;
+    padding:.2rem;
+    width:49.3%;
+    font-size: .23rem;
+}
+.tright{
+    text-align: right;
+}
+
+.box-content{
+    padding:.2rem 1rem .2rem .2rem;
+    font-size: .18rem;
+    background:url("../images/right.png")no-repeat center right;
+    -webkit-background-size:12%;
+    background-size:2%;
+    color:#999;
+}

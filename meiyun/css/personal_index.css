@@ -1,0 +1,69 @@
+body{
+    background: #dddddd;
+}
+.head-content{
+    background:url("http://bos.pgzs.com/rbpiczy/Wallpaper/2012/8/21/ef6c9e596feb4fefabecb3084fd7b8c2-9.jpg")no-repeat;
+}
+.head-Img,.personal-name,.integral{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+.personal-name,.integral{
+    width:6rem;
+    padding:.05rem;
+    color:#fff;
+}
+.head-Img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 99px;
+    background-color: red;
+}
+
+.project_box{
+    background-color: #fff;
+    overflow: hidden;
+}
+.project_box li{
+    float:left;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    width:25%;
+    text-align: center;
+}
+
+.tit-message,.tit-invi,.tit-code,.tit-coupon,.tit-sign,
+.tit-advise,.tit-about{
+    background-color: #fff;
+    padding:.3rem;
+    margin-top:.3rem;
+    padding-left:.8rem;
+}
+.tit-coupon,.tit-about,.tit-sign{
+    border-top:.02rem solid #dddddd;
+}
+
+.tit-about,.tit-coupon,.tit-sign{
+    margin-top:0;
+}
+
+.bottom_box{
+    background-color:#fff;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    left:0;
+    border-top:1px solid #ddd;
+    right:0;
+}
+.bottom_box li{
+    float: left;
+    width:25%;
+    text-align: center;
+    padding-top:0.4rem;
+    padding-bottom:0.1rem;
+}
+.bottom_box li.on{
+    color:#0BDBAC;
+}

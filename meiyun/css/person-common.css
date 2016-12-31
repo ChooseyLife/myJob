@@ -1,0 +1,8 @@
+.person-tit{
+    padding: .3rem;
+    margin-top: .3rem;
+    padding-left: .8rem;
+    text-align:left;
+    background:#fff url("../images/right.png")no-repeat 97% center;
+    font-size:.4rem;
+}

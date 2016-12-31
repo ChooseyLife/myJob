@@ -1,0 +1,148 @@
+
+.head_box{
+	width:10rem;
+	height:5rem;
+	position: relative;
+	overflow: hidden;
+	margin-bottom:0.4rem;
+}
+/*背景模糊*/
+.blur{
+	filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+    height:5rem;
+    background: red;
+    border:0;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.use_box p{
+	margin:0 auto;
+	text-align: center;
+}
+.use_box .top{
+	width:2rem;
+	height:2rem;
+	margin:0 auto 0.4rem;
+	background: blue;
+	border-radius: 999px;
+	overflow: hidden;
+}
+.title_box{
+	margin-bottom:0.4rem;
+}
+.title_box>span{
+	float:left;
+	width:2rem;
+	text-align: right;
+	padding-right:0.2rem;
+}
+.title_box>p,.title_box>div{
+	margin-left:2rem;
+	margin-right:1rem;
+	text-align: justify;
+}
+.img_box img{
+	margin-top:0.4rem;
+	margin-right:0.4rem;
+	width:2rem;
+	height: 2rem;
+	background: red;
+	border:0;
+}
+.site_box{
+	margin-left:0.8rem;
+	line-height: 0.78rem;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	margin-top:-1px;
+}
+.customer_box{
+	
+	height:1.2rem;
+	text-align: right;
+	overflow: hidden;
+	
+	
+}
+.customer_box img{
+	background: red;
+	width:1.2rem!important;
+	height:1.2rem;
+	border-radius: 999px;
+	border:0;
+}
+.title_box.criticism{
+	padding-top:0.4rem;
+}
+
+.works_box{
+	padding-top:0.4rem;
+	background: #eee;
+}
+.works_box .choice_box{
+	overflow: hidden;
+	
+	background: #fff;
+
+}
+.works_box .choice_box li{
+	float: left;
+	width:33.3%;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	font-size:0.2rem;
+	line-height: 0.6rem;
+	margin:0.2rem 0;
+}
+.works_box .choice_box li:nth-child(3){
+	border:0;
+	width:33.4%;
+
+}
+.list_box{
+	overflow: hidden;
+}
+.list_box li{
+	text-align: center;
+	line-height: 0.5rem;
+	float: left;
+	margin:0 1%;
+	width:48.5%;
+	background: #fff;
+	margin-bottom:0.2rem;
+}
+.list_box li:nth-child(2n){
+	margin:0;
+}
+.list_box li>img{
+	width: 100%;
+	height:6rem;
+	margin-bottom:0.2rem;
+	background: red;
+	border:0;
+}
+.no_more{
+	text-align: center;
+	font-size:0.4rem;
+	line-height: 0.6rem;
+	background: #eee;
+	padding:0.4rem 0;
+}
+.bottom_box a{
+	float: left;
+	text-align: center;
+	width:30%;
+	padding:0.2rem 0;
+}
+.bottom_box a:nth-child(2){
+	width:70%;
+	background: red;
+	color:#fff;
+}

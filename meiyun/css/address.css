@@ -1,0 +1,40 @@
+.main{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.logo{
+	width:4rem;
+	height: 4rem;
+	margin:4rem auto 2rem;
+	background: red;
+}
+.city{
+	text-align: center;
+}
+.hint{
+	text-align: center;
+}
+.city_box{
+	width:8rem;
+	margin:2rem auto;
+	text-align: right;
+	overflow: hidden;
+}
+.city_box a{
+	padding:0.2rem;
+	border-radius:0.2rem;
+	color:#fff;
+}
+.city_box .left{
+	float: left;
+	background: #eee;
+
+}
+.city_box .right{
+	float: right;
+	background: red;
+
+}

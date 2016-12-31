@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1" style="font-size: 50px;">
+<head>
+	<title>首页（技师登录后默认首页)</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="../../css/reset.css">
+	<link rel="stylesheet" href="../../css/stylistindex.css">
+	<link rel="stylesheet" type="text/css" href="../../css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css">
+
+	<script type="text/javascript" src="../../js/css/flexible.js"></script>
+
+</head>
+<body>
+	<div class="main">
+		<div>
+			<!-- 轮播 -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="../../images/shouyeswiper.png" alt="">
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="../../images/shouyeswiper.png" alt="">
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="../../images/shouyeswiper.png" alt="">
+			        </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<ul class="task_box">
+			<!-- 我的三大块 -->
+			<li>我的排期</li>
+			<li>我的预约</li>
+			<li>我的评价</li>
+		</ul>
+		<ul class="title_box">
+		<!-- tab -->
+			<li>企业新闻</li>
+			<li>门店通知</li>
+			<li>员工动态</li>
+		</ul>
+		<div class="press">
+			<!-- tab content -->
+			<div class="news_box">
+				<span>
+					<img src="" alt="">
+				</span>
+				<div class="news_title">
+					<h3>真是个好标题</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+				
+			</div>
+			<div class="news_box">
+				<span>
+					<img src="" alt="">
+				</span>
+				<div class="news_title">
+					<h3>真是个好标题</h3>
+				</div>
+				
+			</div>
+			<div class="news_box">
+				<span>
+					<img src="" alt="">
+				</span>
+				<div class="news_title">
+					<h3>真是个好标题</h3>
+				</div>
+				
+			</div>
+		</div>
+		<dl class="bottom_box">
+			<dd>首页</dd>
+			<dd>我的</dd>
+		</dl>
+	</div>
+</body>
+<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="../../js/swiper.min.js"></script>
+<script src="../../js/global.js"></script>
+<script>
+	$(function(){
+		var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+
+		  })
+		  var mySwiper = new Swiper ('.swiper-container2', {
+		    direction: 'horizontal',
+		    slidesPerView : 2.5,
+		    loop: true,
+
+
+		  })
+	})
+</script>
+</html>

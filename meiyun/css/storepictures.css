@@ -1,0 +1,111 @@
+.head_top>span{
+	position: absolute;
+	top:0.2rem;
+	left:0.2rem;
+	z-index:10;
+	color:#fff;
+
+}
+.head_top>a{
+	position: absolute;
+	right: 0.4rem;
+	top:0.4rem;
+	z-index:10;
+	color:#fff;
+}
+.nav_box{
+	height:5rem;
+	position: relative;
+
+}
+.swiper-wrapper{
+	width:100%;
+	height:100%;
+	background: red;
+}
+.swiper-container,.swiper-container2{
+	height:100%;
+}
+.swiper-slide img{
+	width:100%;
+	height: 100%;
+}
+.datum_box{
+	background: #fff;
+}
+.touch_box{
+	padding:0.4rem;
+	border-bottom:1px solid #ddd;
+	background: #fff;
+}
+.touch_box>a{
+	float: right;
+}
+.touch_box>div{
+	margin-right: 1.5rem;
+}
+.address{
+	
+	background: #fff;
+	padding:0.4rem;
+}
+.datum{
+	padding:0.4rem;
+	margin-left:0.4rem;
+	border-left:2px solid #ddd;
+}
+.pick_box .designers{
+	padding:0.4rem;
+}
+.designers_box{
+	background: #fff;
+	padding-left:0.4rem;
+}
+.designers_list{
+	overflow: hidden;
+	padding:0.4rem 0;
+}
+.designers_list .left{
+	float: left;
+	display: inline-block;
+	border-radius:999px;
+	overflow: hidden;
+	height: 1rem;
+	width: 1rem;
+	line-height: 1rem;
+	background: red;
+	text-align: center;
+
+}
+.designers_list .left img{
+	background: red;
+	border-radius:999px;
+}
+.designers_list:nth-last-child(1){
+	padding-bottom:0;
+	
+}
+.designers_list:nth-last-child(1) .name_box{
+	border:0;
+}
+.name_box{
+	overflow: hidden;
+	border-bottom:1px solid #ddd;
+	padding:0.1rem 0.4rem 0.4rem 0.1rem;
+}
+.name_box .right{
+	float: right;
+	margin-top:0.3rem;
+}
+.name_box .name{
+	font-size:0.4rem;
+	margin-bottom:0.2rem;
+}
+.mor_box{
+	color:red;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	background: #fff;
+	line-height: 1rem;
+	text-align: center;
+}

@@ -1,0 +1,64 @@
+.letter_box{
+	padding-bottom: 0.4rem;
+	border-bottom:1px solid #ddd;
+}
+.first,.three{
+	overflow: hidden;
+	padding:0.2rem 0.4rem;
+}
+.two{
+	overflow: hidden;
+	padding:0.2rem 0.6rem;
+}
+.first li,.three li{
+	float: left;
+	width:0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin:0 0.11rem;
+	background: red;
+	text-align: center;
+	border-radius:0.25rem;
+	border:1px solid #ddd;
+}
+.three li{
+	float: left;
+}
+.two li{
+	float: left;
+	width:0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin:0 0.15rem;
+	background: red;
+	text-align: center;
+	border-radius:0.25rem;
+	border:1px solid #ddd;
+}
+.first li.on,.three li.on,.two li.on{
+	background-color: #eee;
+}
+.city_box{
+
+}
+.city_list{
+	padding-top:0.4rem;
+	border-bottom:1px solid #ddd;
+	padding-bottom:0.1rem;
+}
+.city_list:nth-child(2n+1){
+	background-color: #eee;
+}
+.city_list .city{
+	padding-left:1rem;
+	vertical-align: middle;
+	font-size:0.5rem;
+}
+.city_list .serve{
+	
+	vertical-align: middle;
+	margin-left:0.4rem;
+	color:blue;
+	font-size:0.19rem;
+	
+}
