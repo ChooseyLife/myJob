@@ -1,0 +1,65 @@
+.logo{
+	text-align: center;
+	padding:0.8rem 0;
+}
+.logo img{
+	width:6.61rem;
+	height:6.77rem;
+}
+.text1{
+	text-align: center;
+	color:#999;
+	margin-bottom:1rem;
+}
+.text2,.text3{
+	text-align: center;
+}
+.text3 span{
+	color: red;
+}
+.btn{
+	display: block;
+	margin:1rem auto 0;
+	width: 8rem;
+	height: 1.07rem;
+	line-height: 1.07rem;
+	color: #fff;
+	font-size: 0.43rem;
+	background-color: #0cc;
+	text-align: center;
+}
+.box{
+	width: 8rem;
+	margin:0.4rem auto;
+}
+.phone,.number{
+	border-bottom:1px solid #ddd;
+	margin-bottom:0.2rem;
+}
+.phone input{
+	border:0;
+	outline: none;
+	background: url(../images/phone.png) no-repeat 0.1rem center;
+	background-size: 0.31rem 0.48rem;
+	line-height: 0.8rem;
+	text-indent: 0.8rem;
+	width:6rem;
+}
+.remove{
+	display: inline-block;
+	float: right;
+	line-height: 0.8rem;
+	height: 0.8rem;
+	width:0.8rem;
+	background: url(../images/close3.png) no-repeat center;
+	background-size:0.6rem;
+}
+.number input{
+	border:0;
+	outline: none;
+	background: url(../images/message.png) no-repeat left center;
+	background-size: 0.48rem 0.33rem;
+	line-height: 0.8rem;
+	text-indent: 0.8rem;
+	width:5.6rem;
+}

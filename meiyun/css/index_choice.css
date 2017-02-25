@@ -1,0 +1,178 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+}
+.main{
+	padding-bottom:1.4rem;
+}
+.choice_box .banner{
+	height:1.07rem;
+	line-height: 1.07rem;
+	text-align: center;
+	border-bottom:1px solid #ddd;
+	position: relative;
+	background-color: #fff;
+}
+.choice_box .banner .more{
+	display: inline-block;
+	position: absolute;
+	right:0.2rem;
+	top:0;
+	width: 0.64rem;
+	height:1.07rem;
+	line-height: 1.07rem;
+	background: url(../images/mor2.png) no-repeat center;
+	background-size: 0.64rem;
+
+}
+.propagate_title{
+	display: inline-block;
+}
+.choice_box .nav_box{
+	overflow: hidden;
+	background-color: #fff;
+}
+.choice_box .nav_box li{
+	float: left;
+	width:50%;
+	height:1rem;
+	border-bottom:2px solid transparent;
+	line-height: 1rem;
+	text-align: center;
+}
+.nav{
+	margin:0.2rem 0;
+}
+.theme{
+	background-color: #fff;
+	
+	margin-top:0.2rem;
+}
+.theme  img{
+	width: 100%;
+	height: 3.28rem;
+}
+.theme .mor{
+	position: absolute;
+	right:0.2rem;
+	top:0;
+	line-height: 0.8rem;
+	color:#1bb7ac;
+}
+.pic_box{
+	overflow: hidden;
+}
+.choice_box .nav_box li.on{
+	color:#fc8f25;
+	border-bottom:2px solid #fc8f25;
+}
+.choice_box .culling{
+	margin-top:0.2rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.choice_box .culling p .mor{
+	height:1.07rem;
+	line-height: 1.07rem;
+	position: absolute;
+	right:0.2rem;
+	top:0;
+	color:#1bb7ac;
+}
+.store{
+	background-color: #fff;
+}
+.choice_box .culling li{
+	float: left;
+	height:5rem;
+	padding:0.1rem;
+	width:50%;
+	background: #fff;
+}
+.big_pic img{
+	width: 100%;
+	height: 100%;
+}
+.choice_box .culling .small_pic a{
+	display: block;
+	width: 100%;
+	margin-bottom:2%;
+	height:48%;
+	background: red;
+}
+.choice_box .culling .small_pic a:nth-child(2){
+	margin-bottom:0;
+}
+.small_pic img{
+	width: 100%;
+	height: 100%;
+}
+.bespeak_box>.title{
+	height:0.8rem;
+	line-height:0.8rem;
+	text-align: center;
+	position: relative;
+}
+.bespeak_box>.title span{
+	position: absolute;
+	right:0;
+	top:0;
+	display: inline-block;
+	height:0.8rem;
+	border-bottom:1px solid #ddd;
+}
+.bottom_box{
+	overflow: hidden;
+	position: fixed;
+	bottom:0;
+	left:0;
+	border-top:1px solid #ddd;
+	right:0;
+	background-color: #fff;
+}/* 
+.bottom_box .index{
+	background: url(../images/index.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box .index.on{
+	background: url(../images/index1.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box .choice{
+	background: url(../images/choice.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box .choice.on{
+	background: url(../images/choice1.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box  .bespeak{
+	background: url(../images/bespeak.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box  .bespeak.on{
+	background: url(../images/bespeak1.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box  .use{
+	background: url(../images/use.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+}
+.bottom_box  .use.on{
+	background: url(../images/use1.png) no-repeat  center 0.1rem;
+	background-size:0.8rem;
+} */
+.bottom_box li{
+	float: left;
+	width:25%;
+	text-align: center;
+	padding-top:0.93rem;
+	padding-bottom:0.1rem;
+}
+.bottom_box li.on{
+	color:#0BDBAC;
+}

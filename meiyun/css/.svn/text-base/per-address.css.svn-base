@@ -1,0 +1,58 @@
+body{
+    background-color: #999;
+}
+.head2 {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.35rem;
+    background: #fff;
+}
+.back2 {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.add-box{
+    padding:.5rem 1rem .5rem .5rem;
+    border-bottom:.02rem solid #ddd;
+    background:#fff;
+}
+.current{
+    background:#fff url("../images/gou.png")no-repeat .5rem center;
+    background-size:.6rem;
+    padding:.5rem 1rem .5rem 1.5rem;
+}
+.defu-add{
+    color: #1BB7AC;
+}
+.addr-detailed{
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size:.4rem;
+}
+
+
+.about-logo{
+    display: block;
+    margin:1rem auto .2rem;
+}
+.about-tit{
+    text-align: center;
+    color:#1BB7AC;
+    font-size:.4rem;
+}
+
+.about-version{
+    font-size:.3rem;
+}

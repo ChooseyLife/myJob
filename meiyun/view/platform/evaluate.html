@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1" style="font-size: 50px;">
+<head>
+	<title>用户留言</title>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="../../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../../css/evaluate.css">
+	<script type="text/javascript" src="../../js/css/flexible.js"></script>
+
+</head>
+<body>
+<div class="main">
+
+	<div class="head2">
+		<span class="back2"></span>用户评论
+	</div>
+	<div class="nav">
+		<div class="sort on">
+			总评
+		</div>
+		<div class="level">
+			有图
+		</div>
+	</div>
+	<div>
+		<div class="list_box" >
+			<div class="present_box">
+				<span class="head"><img src="../../images/little-fare.jpg" alt=""></span>
+
+				<div>
+					<p class="name">臭美的我	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+
+			</div>
+			<div class="present_box">
+
+				<span class="head"><img src="../../images/fav.png" alt=""></span>
+				<div>
+					<p class="name">热爱美	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+
+			</div>
+			<div class="present_box">
+				<span class="head"><img src="../../images/fxs.png" alt=""></span>
+				<div>
+					<p class="name">追求自我	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+			</div>
+		</div>
+		<div class="list_box" style="display:none;">
+			<div class="present_box">
+				<span class="head"><img src="../../images/little-fare.jpg" alt=""></span>
+				<div>
+					<p class="name">asdasdspan	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+					<div class="pic">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+					</div>
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+
+			</div>
+			<div class="present_box">
+
+				<span class="head"><img src="../../images/fav.png" alt=""></span>
+				<div>
+					<p class="name">asdasdspan	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+					<div class="pic">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+					</div>
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+
+			</div>
+			<div class="present_box">
+				<span class="head"><img src="../../images/fxs.png" alt=""></span>
+				<div>
+					<p class="name">asdasdspan	<span>★★★★</span></p>
+					<p class="content">感觉挺不错的</p>
+					<div class="pic">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+						<img src="../../images/fxs.png" alt="">
+					</div>
+					<p class="star">2017年1月8日16:45:46</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+</body>
+<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+<script src="../../js/global.js"></script>
+<script>
+	/*$(".nav div").on("click",function(){
+	 var i = $(this).index();
+	 $(this).css("color","orange").siblings().css("color","#000");
+	 $(".list_box ul").eq(i).show().siblings().hide();
+	 $(".mask").show();
+	 })
+	 $(".list_box ul li").on("click",function(){
+	 var i = $(this).parent().index();
+	 var test = $(this).html();
+	 $(this).addClass("on").siblings().removeClass("on");
+	 $(".nav div").eq(i).html(test).css("color","#000");
+	 $(".list_box ul,.mask").hide();
+	 })
+	 $(".mask").on("click",function(){
+	 $(".list_box ul,.mask").hide();
+	 $(".nav div").css("color","#000")
+	 })*/
+	$(function(){
+		$(".nav div").on("click",function(){
+			var i = $(this).index();
+			$(this).addClass("on").siblings().removeClass("on");
+			$(".list_box").eq(i).show().siblings().hide();
+		})
+	})
+</script>
+</html>

@@ -6,10 +6,10 @@
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="yes" name="apple-touch-fullscreen" />
     <meta content="telephone=no,email=no" name="format-detection" />
-    <script src="../../js/css/flexible.js"></script>
-    <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/common.css">
-    <link rel="stylesheet" href="../../css/per-order.css">
+    <script src="../js/css/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/per-order.css">
     <style>
         body{
             background-color: rgb(244,245,247);
@@ -19,10 +19,10 @@
 </head>
 <body>
 <div class="head2">
-    <span class="back2"><</span>订单
+    <span class="back2"></span>订单
 </div>
 <div class="order-head">
-    <ul>
+    <ul class="choice_box">
         <li class="active">
             全部
         </li>
@@ -38,9 +38,37 @@
     </ul>
 </div>
 <div class="order-content">
-    <img src="../../images/no-card.png" class="no-order"/>
+    <!--<img src="../images/no-card.png" class="no-order"/>-->
+    <div class="order-item">
+        <div class="order-header">
+            <span class="f_left">David   ></span>
+            <span class="f_right">已预约</span>
+        </div>
+        <div class="order-mid" reUrl="../status.html">
+            <div class="goods-img">
+                <img src="../images/xfxs.png"/>
+            </div>
+            <div class="goods-xq">
+                <p class="order-type">直接预约-美发</p>
+                <p>预约时间：2016-11-11&nbsp;16:00</p>
+                <p>
+                    服务地区：天河区珠江东路13号高德地冬商户哪里的哪里
+                </p>
+            </div>
+        </div>
+        <div class="order-foot">
+            订单总额:   <span>￥0.00</span>
+        </div>
+    </div>
+
 </div>
-<script src="../../js/jquery-1.12.3.min.js"></script>
-<script src="../../js/global.js"></script>
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/global.js"></script>
+<script>
+    $(".choice_box li").on("click",function(){
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+
+</script>
 </body>
 </html>

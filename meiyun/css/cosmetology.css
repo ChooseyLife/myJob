@@ -1,0 +1,235 @@
+body{
+	font-size:0.32rem;
+}
+.head2{
+	background-color: #fafafa;
+}
+.head2 .title{
+	font-size:0;
+}
+.title .designer{
+	display: inline-block;
+	width:2rem;
+	padding:0.1rem 0.3rem;
+	line-height: 0.5rem;
+	border:1px solid  #ddd;
+	border-radius:0.2rem 0 0 0.2rem;
+	font-size:0.37rem;
+	vertical-align: middle;
+	background: #999
+}
+.title .works{
+	display: inline-block;
+	padding:0.1rem 0.3rem;
+	line-height: 0.5rem;
+	border:1px solid  #ddd;
+	border-radius:0 0.2rem  0.2rem  0;
+	font-size:0.37rem;
+	margin-left:-1px;
+	vertical-align: middle;
+	width:2rem;
+	color:#999;
+}
+.mask{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: rgba(0,0,0,.5);
+	z-index:2;
+	display: none;
+}
+.nav{
+	font-size:0;
+	position: relative;
+	z-index:3;
+	background: #fff;
+
+}
+.nav div{
+	position: relative;
+	display: inline-block;
+	font-size:0.19rem;
+	width:50%;
+	text-align: center;
+	line-height: 0.8rem;
+	border-bottom:1px solid #ebebeb;
+}
+.sort{
+	border-right:1px solid #ebebeb;
+}
+.list_box2{
+	position: relative;
+}
+.star{
+	color:orange;
+}
+.star .number{
+	color:#000;
+}
+.list_box2 ul{
+	border-top:1px solid #ebebeb;
+	position: absolute;
+	z-index:3;
+	text-align: left;
+	top:-1px;
+	left:0;
+	width:200%;
+	background: #fff;
+	display: none;
+}
+.list_box2 ul li{
+	text-indent:0.4rem;
+	line-height: 0.8rem;
+	border-bottom: 1px solid #ebebeb;
+}
+.list_box2 ul li.on{
+	background: url(../images/check2.png) no-repeat 9rem center;
+	background-size: 0.4rem;
+}
+.present_box{
+	height:1.87rem;
+}
+
+.present_box .head{
+	display: inline-block;
+	width:1.07rem;
+	height:1.07rem;
+	overflow: hidden;
+	
+	border-radius: 999px;
+	vertical-align: middle;
+	margin-left:0.4rem;
+}
+.present_box .head img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.present_box>a>div{
+	vertical-align: middle;
+	display: inline-block;
+	width:8.6rem;
+	
+	border-bottom:1px solid #ebebeb;
+	padding: 0.4rem 0 0.2rem 0.2rem;
+	margin-left:-0.2rem;
+}
+.present_box .name{
+	margin-bottom:0.2rem;
+	font-size: 0.37rem;
+	font-weight: bold;
+}
+.present_box .name>span{
+	font-weight: normal;
+	font-size: 0.32rem;
+	border-left:1px solid #ebebeb;
+	vertical-align: bottom;
+	padding-left:0.2rem;
+}
+.present_box .number{
+	float: right;
+	margin-right: 0.4rem;
+}
+.list_box{
+	overflow: hidden;
+	border-bottom:1px solid #ddd;
+}
+.list_box .use_box{
+	float: left;
+	width:2.5rem;
+	display: inline-block;
+	text-align: right;
+	height:2rem;
+	padding-top:0.4rem;
+}
+.list_box .use_box img{
+	width: 2rem;
+	height:2rem;
+	
+	border-radius: 9999px;
+	border:0;
+	outline: none;
+}
+.skill .name{
+	line-height: 0.6rem;
+}
+.mor{
+    background: url(../images/mor2.png) no-repeat center;
+    background-size: 0.64rem;
+    width: 1rem;
+    height: 1.07rem;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.name>span{
+	float: right;
+	color:#1bb7ac;
+	border:1px solid #1bb7ac;
+	padding:0.1rem 0.2rem;
+}
+.name .stylist{
+	font-size:0.48rem;
+	font-weight: 600;
+}
+.name .aft{
+	font-size:0.15rem;
+	vertical-align: super;
+	border-left:1px solid #ddd;
+	padding-left:0.2rem;
+}
+.level2{
+	padding:0.1rem 0;
+	color:orange;
+}
+.level2 span{
+	color:#333;
+	margin-left:0.2rem;
+}
+.pic img{
+	width:2rem;
+	margin:0 0.3rem 0.3rem 0;
+	height:2rem;
+	background: red;
+}
+.pic img:nth-child(3n){
+	margin:0 0 0.3rem 0 ;
+}
+.forte{
+	color:#999;
+	font-size:0.33rem;
+	margin-bottom:0.2rem;
+
+}
+
+.worth{
+	font-size:0.33rem;
+	background: url(../images/worth.png) no-repeat left center;
+	background-size: 0.33rem;
+	padding-left:0.4rem;
+}
+.list_box .use_box{
+	float: left;
+	width:2.5rem;
+	display: inline-block;
+	text-align: right;
+	height:2rem;
+	padding-top:0.4rem;
+}
+.list_box .use_box img{
+	width: 2rem;
+	height:2rem;
+	border-radius: 9999px;
+	border:0;
+	outline: none;
+}
+.list_box .skill{
+	margin-left:3rem;
+	padding: 0.4rem 0.2rem 0 0;
+}
+.pic{
+	font-size: 0
+}

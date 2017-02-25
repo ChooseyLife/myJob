@@ -7,34 +7,42 @@
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="yes" name="apple-touch-fullscreen" />
     <meta content="telephone=no,email=no" name="format-detection" />
-    <script src="../../js/jquery-1.12.3.min.js"></script>
-    <script src="../../js/css/flexible.js"></script>
-    <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/phonelogin.css">
-    <link rel="stylesheet" href="../../css/button.css">
-    <link rel="stylesheet" href="../../css/common.css">
-    <link rel="stylesheet" href="../../css/person-common.css">
+    <script src="../js/jquery-1.12.3.min.js"></script>
+    <script src="../js/css/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/phonelogin.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/person-common.css">
     <style>
         body{background-color:#c0c0c0}
         .btn{margin-bottom:.3rem;}
-        .auth-phone{background-color:#fff;color:#000000;border-bottom:.02rem solid #ddd;}
+        .auth-phone{background-color:#fff;color:#000000;border-bottom:1px solid #ddd;}
+        .person-tit::before{
+            content: "";
+            background-image: url(/mifang/images/personImg/care-pwd.png);
+            padding: .3rem;
+            background-size: .5rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
     </style>
 </head>
 <body>
 <div class="main">
     <div class="head2">
-        <span class="back2"><</span>安全设置
+        <span class="back2"></span>安全设置
     </div>
     <div>
         <p class="auth-phone">畅享生日特权</p>
         <p class="auth-tit">充值后设定生日，即可在生日当周享受免单特权，仅限一次免单。生日设定后就不能修改了哦
-            <input value="设定生日" class="set-brth">
+            <input class="set-brth" placeholder="设定生日" type="month">
         </p>
         <p class="person-tit" reUrl="./authentication.html">设置支付密码</p>
     </div>
 </div>
-<script src="../../js/jquery-1.12.3.min.js"></script>
-<script src="../../js/global.js"></script>
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/global.js"></script>
 </body>
 
 </html>

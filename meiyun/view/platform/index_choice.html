@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1" style="font-size: 50px;">
+<head>
+	<title>精选</title>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="../../css/reset.css">
+	<link rel="stylesheet" href="../../css/index_choice.css">
+	<link rel="stylesheet" href="../../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css">
+
+	<script type="text/javascript" src="../../js/css/flexible.js"></script>
+
+</head>
+<body>
+
+<div class="main">
+	<!-- 首页 -->
+	<!-- 精选 -->
+	<div class="choice_box">
+		<!-- 头部 -->
+		<div class="banner">
+			美丽之家
+			<a class="more href" href="../../choice.html"></a>
+		</div>
+		<!-- tab_title -->
+		<ul class="nav_box">
+			<li class="on">精选作品</li>
+			<li>精选主题</li>
+		</ul>
+		<div>
+			<!-- 精选作品 -->
+			<div class="nav">
+				<!-- 精选作品格子 -->
+				<div class="culling">
+					<p class="before">彩妆&middot;精致<a class="mor">更多></a></p>
+					<ul class="pic_box">
+						<li class="big_pic href" href="../../mystylistuse.html">
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+						</li>
+						<li class="small_pic">
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="culling">
+					<p class="before">彩妆&middot;精致<a class="mor">更多></a></p>
+					<ul class="pic_box">
+						<li class="big_pic href" href="../../mystylistuse.html">
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+						</li>
+						<li class="small_pic href" href="../../mystylistuse.html">
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+							<a href="../../mystylistuse.html">
+								<img src="../../images/header.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 精选主题 -->
+			<div class="nav href" style="display:none;" href="../../mystylistuse.html">
+				<!-- 精选主题格子 -->
+				<div class="theme">
+					<p class="before">彩妆&middot;精致<a class="mor">更多></a></p>
+					<a href="">
+						<img src="../../images/header.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<jsp:include page="../../include/footer.jsp" flush="true"/>
+</body>
+<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="../../js/swiper.min.js"></script>
+<script src="../../js/global.js"></script>
+<script>
+	$(".bottom_box li").eq(1).addClass("on");
+	$(function(){
+		$(".nav_box li").on("click",function(){
+			var i = $(this).index();
+			$(this).addClass("on").siblings().removeClass("on");
+			$(".nav").eq(i).show().siblings().hide();
+		})
+	})
+</script>
+</html>

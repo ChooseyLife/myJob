@@ -1,0 +1,110 @@
+body{
+	font-size:0.32rem;
+}
+.head2{
+	background-color: #fafafa;
+}
+.mask{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: rgba(0,0,0,.8);
+	z-index:2;
+	display: none;
+}
+.nav{
+	font-size:0;
+	position: relative;
+	z-index:3;
+	background: #fff;
+
+}
+.nav div{
+	position: relative;
+	display: inline-block;
+	font-size:0.19rem;
+	width:50%;
+	text-align: center;
+	line-height: 0.8rem;
+	border-bottom:1px solid #ebebeb;
+}
+.sort{
+	border-right:1px solid #ebebeb;
+}
+.list_box{
+	position: relative;
+}
+.star{
+	margin-top:0.2rem;
+	color:#999;
+	font-size: 0.32rem;
+}
+.present_box{
+	
+}
+.pic{
+	font-size: 0;
+	margin-top:0.2rem;
+}
+.pic img{
+	width: 2rem;
+    margin: 0 0.3rem 0.3rem 0;
+    height: 2rem;
+}
+.pic img:nth-child(3n) {
+    margin: 0 0 0.3rem 0;
+}
+.nav>div.on:after{
+	content: "";
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0.25rem;
+    border-top: 1px solid orange;
+
+}
+.present_box .head{
+	display: inline-block;
+    width: 1.07rem;
+    height: 1.07rem;
+    overflow: hidden;
+    border-radius: 999px;
+    margin-left: 0.4rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.present_box .head img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.present_box>div{
+	vertical-align: middle;
+	display: inline-block;
+	width:8.6rem;
+	
+	border-bottom:1px solid #ebebeb;
+	padding: 0.4rem 0 0.2rem 0.2rem;
+	margin-left:-0.2rem;
+}
+.present_box .name{
+	margin-bottom:0.2rem;
+	font-size: 0.37rem;
+	font-weight: bold;
+}
+.present_box .name>span{
+	font-weight: normal;
+	
+	vertical-align: bottom;
+	padding-left:0.2rem;
+	color:orange;
+}
+.present_box .number{
+	float: right;
+	margin-right: 0.4rem;
+}
+.present_box .content{
+
+}

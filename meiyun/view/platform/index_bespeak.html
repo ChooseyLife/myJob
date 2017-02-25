@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-dpr="1" style="font-size: 50px;">
+<head>
+	<title>预约</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="../../css/reset.css">
+	<link rel="stylesheet" href="../../css/index_bespeak.css">
+	<link rel="stylesheet" type="text/css" href="../../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/time.css">
+	<script type="text/javascript" src="../../js/css/flexible.js"></script>
+
+</head>
+<body>
+
+<div class="main">
+
+	<!-- 预约 -->
+	<div class="bespeak_box">
+		<!-- 头部 -->
+		<div class="title">预约<a href="" class="more"></a></div>
+		<!-- 项目名称 -->
+		<ul class="project_box">
+			<li class="hairdressing on">美发</li>
+			<li class="cosmetology">美容</li>
+			<li class="manicure">美甲</li>
+			<li class="beauty">美瞳</li>
+			<li class="dressing">美妆</li>
+
+		</ul>
+		<!-- 项目详情 -->
+		<div class="details">
+			<ul class="hairdressing_list" style="display:block">
+				<li class="title_box">
+					<div class="before">服务信息</div>
+				</li>
+				<li class="shop">到店服务</li>
+				<li class="time_box">
+					<span>选择预约时间</span>
+				</li>
+				<li class="place_box">
+						<span>
+							<a href="store.html">高德店</a>
+						</span>
+				</li>
+				<li>
+					<p class="submit">预约一下</p>
+				</li>
+			</ul>
+			<ul class="hairdressing_list">
+				<li class="title_box">
+					<div class="before">服务信息</div>
+				</li>
+				<li class="shop">到店服务</li>
+				<li class="time_box">
+					<span>选择预约时间</span>
+				</li>
+				<li class="place_box">
+						<span>
+							<a href="store.html">高德店</a>
+						</span>
+				</li>
+				<li>
+					<p class="submit">预约一下</p>
+				</li>
+			</ul>
+			<ul class="hairdressing_list">
+				<li class="title_box">
+					<div class="before">服务信息</div>
+				</li>
+				<li class="shop">到店服务</li>
+				<li class="time_box">
+					<span>选择预约时间</span>
+				</li>
+				<li class="place_box">
+						<span>
+							<a href="store.html">高德店</a>
+						</span>
+				</li>
+				<li>
+					<p class="submit">预约一下</p>
+				</li>
+			</ul>
+			<ul class="hairdressing_list">
+				<li class="title_box">
+					<div class="before">服务信息</div>
+				</li>
+				<li class="shop">到店服务</li>
+				<li class="time_box">
+					<span>选择预约时间</span>
+				</li>
+				<li class="place_box">
+						<span>
+							<a href="store.html">高德店</a>
+						</span>
+				</li>
+				<li>
+					<p class="submit">预约一下</p>
+				</li>
+			</ul>
+			<ul class="hairdressing_list">
+				<li class="title_box">
+					<div class="before">服务信息</div>
+				</li>
+				<li class="shop">到店服务</li>
+				<li class="time_box">
+					<span>选择预约时间</span>
+				</li>
+				<li class="place_box">
+						<span>
+							<a href="store.html">高德店</a>
+						</span>
+				</li>
+				<li>
+					<p class="submit">预约一下</p>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</div>
+<jsp:include page="../../include/footer.jsp" flush="true"/>
+</body>
+<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="../../js/swiper.min.js"></script>
+<script src="../../js/global.js"></script>
+<script src="../../js/time.js"></script>
+<script>
+	$(function(){
+		$(".bottom_box li").eq(2).addClass("on");
+		$(".project_box li").on("click",function(){
+			var i = $(this).index()
+			$(this).addClass("on").siblings().removeClass("on")
+			$(".time_box span").css("color","#ddd").text("请选择预约时间")
+			$(".details ul").eq(i).show().siblings().hide();
+		})
+		$(".time_box span")._time();
+	})
+</script>
+</html>

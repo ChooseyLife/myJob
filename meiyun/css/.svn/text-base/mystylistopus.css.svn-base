@@ -1,0 +1,363 @@
+
+.head_box{
+	width:10rem;
+	height:7.5rem;
+	position: relative;
+	overflow: hidden;
+	margin-bottom:0.4rem;
+}
+.head_box>.top{
+	position: relative;
+	padding-top:0.2rem;
+	padding-right:0.2rem;
+	padding-left:0.2rem;
+	text-align: right;
+}
+.top .back2{
+	background: url(../images/back2.png) no-repeat center;
+	background-size: 0.64rem;
+	background-color: rgba(0,0,0,.3);
+	width: 0.8rem;
+	height: 0.8rem;
+	display: inline-block;
+	border-radius: 9999px;
+	float: left;
+}
+.top .collect{
+	background: url(../images/collect.png) no-repeat center;
+	background-size: 0.64rem;
+	background-color: rgba(0,0,0,.3);
+	width: 0.8rem;
+	height: 0.8rem;
+	display: inline-block;
+	border-radius: 9999px;
+	margin-right: 0.2rem;
+}
+.top .mor{
+	background: url(../images/news.png) no-repeat center;
+	background-size: 0.64rem;
+	background-color: rgba(0,0,0,.3);
+	width: 0.8rem;
+	height: 0.8rem;
+	display: inline-block;
+	border-radius: 9999px;
+}
+/*±³¾°Ä£ºý*/
+.blur{
+    height:7.5rem;
+    background: red;
+    border:0;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.use_box p{
+	margin:0 auto;
+	text-align: center;
+	color:#fff;
+	letter-spacing:2px;
+}
+.use_box .star{
+	color:orange;
+	word-spacing:8px;
+	letter-spacing:4px;
+}
+.use_box .top{
+	width:2rem;
+	height:2rem;
+	margin:0 auto 0.4rem;
+	background: blue;
+	border-radius: 999px;
+	overflow: hidden;
+}
+.use_box .top img{
+	width:100%;
+	height: 100%;
+}
+
+.opus-name{
+	padding:0 .5rem;
+	margin-bottom:.4rem;
+	overflow:hidden;
+}
+.opus_fl{
+	float:left;
+}
+.opus_fr{
+	float: right;
+	color: #fb3709;
+	padding-left: 1.5rem;
+	background: url(../images/sedprice.png)no-repeat left center;
+	background-size: 45% 100%;
+}
+.opus-title{
+	overflow:hidden;
+	text-align:center;
+}
+
+.opus-style{
+	margin-bottom:0.3rem;
+}
+.opus-introduce{
+	padding:0.5rem;
+	background:#f1f1f1;
+	color:#999;
+}
+.opus-time{
+	float:left;
+}
+.opus-done{
+	float:right;
+}
+
+.title_box{
+	margin-bottom:0.4rem;
+}
+.title_box>span{
+	float:left;
+	width:2rem;
+	text-align: right;
+	font-weight: bold;
+	font-size: 0.32rem;
+	padding-right:0.2rem;
+}
+.title_box>p,.title_box>div{
+	margin-left:2rem;
+	margin-right:1rem;
+	text-align: justify;
+	font-size: 0.32rem;
+}
+.img_box{
+	position: relative;
+	padding-bottom:0.5rem;
+
+}
+.close{
+	background: url(../images/close.png) no-repeat right center;
+	background-size:0.36rem;
+	width:1rem;
+	height: 0.48rem;
+	position: absolute;
+	right: 0;
+	bottom:0;
+	color:orange;
+}
+.close.on{
+	background: url(../images/close2.png) no-repeat right center;
+	background-size:0.36rem;
+}
+.img_box img{
+	margin-top:0.4rem;
+	margin-right: 0.1rem;
+	width:2.2rem;
+	height: 2rem;
+	background: red;
+	border:0;
+}
+.title_box.criticism{
+	border-bottom:1px solid #ddd;
+	margin-bottom:0;
+}
+.title_box.criticism .pic{
+	text-align: left;
+	font-size: 0;
+}
+.title_box.criticism .pic img{
+	width:1.6rem;
+	height: 1.6rem;
+	margin-right:0.1rem;
+	margin-bottom:0.2rem;
+}
+.title_box.criticism p{
+	margin-bottom:0.4rem; 
+}
+.title_box.criticism .name{
+	font-size: 0.37rem;
+	vertical-align: middle;
+	font-weight: 600;
+}
+.title_box.criticism .star{
+	font-size: 0.32rem;
+	margin-left:0.2rem;
+	vertical-align: top;
+	color:orange;
+}
+.title_box.criticism .time{
+	color:#ddd;
+}
+.img_box img:nth-child(3n){
+	margin-right:0;
+}
+.site_box{
+	margin-left:1.07rem;
+	line-height: 1.07rem;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	margin-top:-1px;
+	background:url(../images/go.png) no-repeat 8rem center;
+	background-size:0.32rem 0.43rem;
+}
+.site_box a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.37rem;
+	
+}
+.site_box .place{
+	background: url(../images/place.png) no-repeat 0.3rem center;
+	background-size: 0.48rem;
+	padding-left:1.2rem;
+}
+.site_box .appraise{
+	background: url(../images/mor2.png) no-repeat 0.2rem center;
+	background-size: 0.64rem;
+	padding-left:1.2rem;
+}
+.site_box .appraise> span{
+	float:right;
+	padding-right:1.2rem;
+	color:orange;
+}
+.customer_box{
+	height:1.2rem;
+	text-align: right;
+	overflow: hidden;
+}
+.customer_box img{
+	width:1.2rem!important;
+	height:1.2rem;
+	border-radius: 999px;
+	border:0;
+}
+.title_box.criticism{
+	padding-top:0.4rem;
+}
+
+.works_box{
+	padding-top:0.4rem;
+	background: #eee;
+}
+.works_box .choice_box{
+	overflow: hidden;
+	
+	background: #fff;
+
+}
+.works_box .choice_box li{
+	float: left;
+	width:33.3%;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	font-size:0.37rem;
+	line-height: 0.6rem;
+	margin:0.2rem 0;
+}
+.works_box .choice_box li:nth-child(3){
+	border:0;
+	width:33.4%;
+}
+.choice_box li.on{
+	color:orange;
+}
+.list_box{
+	overflow: hidden;
+}
+.list_box li{
+	text-align: center;
+	line-height: 0.5rem;
+	float: left;
+	margin:0 1%;
+	width:48.5%;
+	background: #fff;
+	margin-bottom:0.2rem;
+}
+.list_box li:nth-child(2n){
+	margin:0;
+}
+.list_box li>img{
+	width: 100%;
+	height:6rem;
+	margin-bottom:0.2rem;
+	background: red;
+	border:0;
+}
+.no_more{
+	text-align: center;
+	font-size:0.4rem;
+	line-height: 0.6rem;
+	background: #eee;
+	padding:0.4rem 0;
+}
+.bottom_box{
+	overflow: hidden;
+	position: fixed;
+	bottom:0;
+	left:0;
+	right: 0;
+	background: #fff;
+	font-size: 0.37rem;
+}
+.main{
+	padding-bottom: 0.98rem;
+}
+.bottom_box .contact{
+	background: url(../images/contact.png) no-repeat 0.2rem center;
+	background-size: 0.64rem;
+	padding-left:0.3rem;
+}
+.bottom_box a{
+	float: left;
+	text-align: center;
+	width:30%;
+	height: 1rem;
+	line-height: 1rem;
+	
+}
+.bottom_box a:nth-child(2){
+	width:70%;
+	background: #1bb7ac;
+	color:#fff;
+}
+
+
+
+.technician_list{
+	padding:0.4rem 0 0 0.4rem;
+	overflow: hidden;
+}
+.technician_list .head{
+	float: left;
+	width:1.5rem;
+	height: 1.5rem;
+	border-radius: 999px;
+	overflow: hidden;
+}
+.technician_list .head img{
+	width:100%;
+	height:100%;
+}
+.explain{
+	border-bottom:1px  solid #ddd;
+	height:1.8rem;
+	margin-left:2rem;
+	position: relative;
+}
+.level{
+	position: absolute;
+	bottom:0.2rem;
+	left:0;
+	right:0.4rem;
+	font-size:.3rem;
+}
+.level-start{
+	display:inline-block;
+	font-size:.5rem;
+	color:#FD8611;
+}
+
+.level span{
+	float: right;
+}

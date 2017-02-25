@@ -1,0 +1,186 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+}
+.main{
+	padding-bottom:1.4rem;
+}
+.bespeak_box .title{
+	height:1.07rem;
+	line-height: 1.07rem;
+	text-align: center;
+	border-bottom:1px solid #ddd;
+	position: relative;
+	background-color: #fff;
+}
+.bespeak_box .title .more{
+	background: url(../images/mor2.png) no-repeat center;
+    background-size: 0.64rem;
+    width: 1rem;
+    height: 1.07rem;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.project_box{
+	overflow: hidden;
+	padding:0.4rem 0;
+}
+.project_box li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top:1rem;
+    position: relative;
+    background-color:rgba(0,0,0,.5);
+}
+.project_box li.on:after{
+    position: absolute;
+    bottom: -0.4rem;
+    left: 50%;
+    margin-left: -0.2rem;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-color:transparent transparent #fff transparent;
+    border-width:0.2rem;
+    border-style: solid;
+
+}
+.project_box .hairdressing.on{
+	background: url(../images/hairdressing.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#000;
+}
+.project_box .cosmetology.on{
+	background: url(../images/cosmetology.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#000;
+}
+.project_box .manicure.on{
+	background: url(../images/manicure.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#000;
+}
+.project_box .beauty.on{
+	background: url(../images/Beauty.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#000;
+}
+.project_box .dressing.on{
+	background: url(../images/dressing.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#000;
+}
+
+
+/*Î´Ñ¡ÖÐ*/
+.project_box .hairdressing{
+	background: url(../images/bespeak/hairdressing.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#ccc;
+}
+.project_box .cosmetology{
+	background: url(../images/bespeak/cosmetology.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#ccc;
+}
+.project_box .manicure{
+	background: url(../images/bespeak/manicure.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#ccc;
+}
+.project_box .beauty{
+	background: url(../images/bespeak/Beauty.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#ccc;
+}
+.project_box .dressing{
+	background: url(../images/bespeak/dressing.png) no-repeat top center;
+	background-size: 0.93rem;
+	color:#ccc;
+}
+.before{
+	color:#999;
+}
+.bottom_box{
+	overflow: hidden;
+	position: fixed;
+	bottom:0;
+	left:0;
+	border-top:1px solid #ddd;
+	right:0;
+	background-color: #fff;
+}
+.details ul li:not(.title_box){
+	padding-left:0.8rem;
+	height:1.4rem;
+	line-height: 1.4rem;
+	
+	margin-top:-1px;
+	font-size: 0.32rem;
+}
+.details ul li:nth-last-child(1){
+	padding:0;
+}
+.shop{
+	background: url(../images/bespeak/shop.png) no-repeat 0.2rem center;
+	background-size: 0.48rem;
+	border-bottom:1px solid #ddd;
+}
+.time_box{
+	background: url(../images/bespeak/time.png) no-repeat 0.2rem center;
+	background-size: 0.48rem;
+	color:#ddd;
+}
+.place_box{
+	background: url(../images/bespeak/place.png) no-repeat 0.2rem center;
+	background-size: 0.48rem;
+	border:0;
+}
+.place_box span,.time_box span{
+	border-bottom:1px solid #ddd;
+}
+
+.details ul li span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bespeak/go.png) no-repeat 8.5rem center;
+	background-size: 0.32rem 0.43rem;
+}
+.submit{
+	margin: 1rem auto 0.27rem;
+    width: 80%;
+    text-align: center;
+    font-size: 0.4rem;
+    height: 1.07rem;
+    color: #fff;
+    line-height: 1.07rem;
+    background: #0cc;
+    border-radius: 0.1rem;
+}
+.hairdressing_list{
+	display: none;
+}
+.details{
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.bottom_box li{
+	float: left;
+	width:25%;
+	text-align: center;
+	padding-top:0.93rem;
+	padding-bottom:0.1rem;
+}
+.bottom_box li.on{
+	color:#0BDBAC;
+}

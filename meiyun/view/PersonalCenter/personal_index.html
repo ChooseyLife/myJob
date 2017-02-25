@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>个人中心</title>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <script src="../js/css/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/personal_index.css">
+    <link rel="stylesheet" href="../css/common.css">
 </head>
 <body>
-
+<div class="use_box">
+    <div class="head-content">
+        <span reUrl="../setting/setting.html" class="mune">
+            <img src="../images/personImg/mune1.png"/>
+        </span>
+        <em class="head-Img" reUrl="../setting/setting_index.html"></em>
+        <span class="personal-name">138****3288</span>
+        <span class="integral">积分：55</span>
+    </div>
+    <ul class="project_box">
+        <li class="order" reUrl="/personalcenter/per_order.html"><a >订单</a></li>
+        <li class="art" reUrl="/fav/fav_artificer.html"><a >技师</a></li>
+        <li class="opus"  reUrl="/fav/fav_opus.html"><a>作品</a></li>
+        <li class="wallet" reUrl="/wallet/my_wallet.html"><a >钱包</a></li>
+    </ul>
+    <p class="tit-message" reUrl="../message/message_list.html">我的消息</p>
+    <p class="tit-invi">邀请送豪礼</p>
+    <p class="tit-code">扫一扫</p>
+    <p class="tit-coupon" reUrl="coupon.html">优惠券</p>
+    <p class="tit-sign">签到赚积分</p>
+    <p class="tit-advise" reUrl="suggestions.html">意见反馈</p>
+    <p class="tit-about" reUrl="aboutUs.html">关于我们</p>
+</div>
+<jsp:include page="../include/footer.jsp" flush="true"/>
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/global.js"></script>
+<script>
+    $(function(){
+        $(".bottom_box li").eq(3).addClass("on");
+    });
+</script>
 </body>
 </html>

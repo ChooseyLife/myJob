@@ -3,6 +3,7 @@
 <head>
 	<title>首页（技师登录后默认首页)</title>
 	<meta charset="UTF-8">
+
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<meta content="telephone=no" name="format-detection" />
 	<link rel="stylesheet" href="../../css/reset.css">
@@ -14,74 +15,165 @@
 
 </head>
 <body>
-	<div class="main">
-		<div>
-			<!-- 轮播 -->
-			<div class="swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">
-			        	<img src="../../images/shouyeswiper.png" alt="">
-			        </div>
-			        <div class="swiper-slide">
-			        	<img src="../../images/shouyeswiper.png" alt="">
-			        </div>
-			        <div class="swiper-slide">
-			        	<img src="../../images/shouyeswiper.png" alt="">
-			        </div>
-			    </div>
-			    <!-- 如果需要分页器 -->
-			    <div class="swiper-pagination"></div>
+<div class="main">
+	<div>
+		<!-- 轮播 -->
+		<div class="swiper-container swiper-container-horizontal">
+			<div class="swiper-wrapper" style="transform: translate3d(-375px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 375px;">
+				<img src="../../images/ccc.jpg" alt="">
 			</div>
+				<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 375px;">
+					<img src="../../images/aaa.jpg" alt="">
+				</div>
+				<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 375px;">
+					<img src="../../images/bbb.jpg" alt="">
+				</div>
+				<div class="swiper-slide" data-swiper-slide-index="2" style="width: 375px;">
+					<img src="../../images/ccc.jpg" alt="">
+				</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 375px;">
+					<img src="../../images/aaa.jpg" alt="">
+				</div></div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
 		</div>
-		<ul class="task_box">
-			<!-- 我的三大块 -->
-			<li>我的排期</li>
-			<li>我的预约</li>
-			<li>我的评价</li>
-		</ul>
-		<ul class="title_box">
+	</div>
+	<ul class="task_box">
+		<!-- 我的三大块 -->
+		<li class="schedule">
+			<a href="">我的排期</a>
+		</li>
+		<li class="order">
+			<a href="">我的预约</a>
+		</li>
+		<li class="evaluate">
+			<a href="">我的评价</a>
+		</li>
+	</ul>
+	<ul class="title_box">
 		<!-- tab -->
-			<li>企业新闻</li>
-			<li>门店通知</li>
-			<li>员工动态</li>
-		</ul>
-		<div class="press">
+		<li class="">企业新闻</li>
+		<li class="">门店通知</li>
+		<li class="on">员工动态</li>
+	</ul>
+	<div class="content_list">
+		<div class="press" style="display: none;">
 			<!-- tab content -->
 			<div class="news_box">
-				<span>
-					<img src="" alt="">
-				</span>
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
 				<div class="news_title">
-					<h3>真是个好标题</h3>
+					<h3>恭喜广州天河分店成立1</h3>
 					<span>管理员</span>
 					<span>1分钟前</span>
 				</div>
-				
+
 			</div>
 			<div class="news_box">
-				<span>
-					<img src="" alt="">
-				</span>
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
 				<div class="news_title">
-					<h3>真是个好标题</h3>
+					<h3>恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立1</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
 				</div>
-				
+
 			</div>
 			<div class="news_box">
-				<span>
-					<img src="" alt="">
-				</span>
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
 				<div class="news_title">
-					<h3>真是个好标题</h3>
+					<h3>恭喜广州增城分店成立1</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
 				</div>
-				
+
 			</div>
 		</div>
-		<dl class="bottom_box">
-			<dd>首页</dd>
-			<dd>我的</dd>
-		</dl>
+		<div class="press" style="display: none;">
+			<!-- tab content -->
+			<div class="news_box">
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州天河分店成立2</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+			<div class="news_box">
+					<span>
+						<img src="../../../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立2</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+			<div class="news_box">
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州增城分店成立2</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+		</div>
+		<div class="press" style="display: block;">
+			<!-- tab content -->
+			<div class="news_box">
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州天河分店成立</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+			<div class="news_box">
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立恭喜广州白云分店成立</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+			<div class="news_box">
+					<span>
+						<img src="../../images/xxdian.png" alt="">
+					</span>
+				<div class="news_title">
+					<h3>恭喜广州增城分店成立</h3>
+					<span>管理员</span>
+					<span>1分钟前</span>
+				</div>
+
+			</div>
+		</div>
 	</div>
+	<div class="bottom_box">
+		<a href="">首页</a>
+		<a href="">我的</a>
+	</div>
+
+</div>
+
+
 </body>
 <script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="../../js/swiper.min.js"></script>
@@ -89,19 +181,18 @@
 <script>
 	$(function(){
 		var mySwiper = new Swiper ('.swiper-container', {
-		    direction: 'horizontal',
-		    loop: true,
-		    // 如果需要分页器
-		    pagination: '.swiper-pagination',
+			direction: 'horizontal',
+			loop: true,
+			// 如果需要分页器
+			pagination: '.swiper-pagination',
 
-		  })
-		  var mySwiper = new Swiper ('.swiper-container2', {
-		    direction: 'horizontal',
-		    slidesPerView : 2.5,
-		    loop: true,
-
-
-		  })
+		})
+		$(".title_box li").on("click",function(){
+			$(this).addClass("on").siblings().removeClass("on")
+			var i = $(this).index();
+			$(".content_list .press").eq(i).show().siblings().hide();
+		})
 	})
 </script>
 </html>
+

@@ -1,0 +1,143 @@
+body{
+	background: #eee;
+}
+.big_box{
+	background: #fff;
+	padding-top:0.2rem;
+	padding-bottom:1rem;
+}
+.head_box{
+	overflow: hidden;
+	background: #fff;
+	height:2rem;
+}
+.head_box .left{
+	float: left;
+	width:2rem;
+	text-align: right;
+}
+.head_box .left img{
+	width: 1.07rem;
+	height: 1.07rem;
+	border-radius: 999px;
+}
+.head_box .right{
+	float: right;
+	width: 3rem;
+	height:2rem;
+	vertical-align: middle;
+	line-height: 2rem;
+	background: url(../images/cup.png) no-repeat left center;
+	background-size: 0.53rem;
+	padding-left:0.8rem;
+}
+.head_box .name{
+	margin:0 3rem 0 2rem;
+	padding-left:0.4rem;
+	vertical-align: middle;
+	
+}
+.time_box{
+	margin:0 0.4rem;
+	font-size: 0;
+	text-align: justify;
+	background: url(../images/time-boxbg.png) repeat-x left 0.35rem;
+	background-size:1px 5px;
+}
+.time_box:after{
+	content: "";
+	width:100%;
+	display: inline-block;
+}
+.time_box li:not(.day){
+	display: inline-block;
+	font-size: 0.4rem;
+	border-radius: 999px;
+	width: 0.82rem;
+	height: 0.82rem;
+	line-height: 0.8rem;
+	text-align: center;
+	background: url(../images/libg2.png) no-repeat center;
+	background-size: 1.09rem;
+	color:#fff;
+}
+li .day{
+	display: none;
+}
+.time_box li.last{
+	height: 1rem;
+	background: url(../images/libg3.png) no-repeat center;
+	background-size: 1.09rem;
+	position: relative;
+}
+li.last .day{
+	display: block;
+	position: absolute;
+	bottom:-0.8rem;
+	left:0;
+	margin-left:-0.5rem;
+	font-size: 0.4rem;
+	width:2rem;
+	color:#999;
+}
+.time_box li.on{
+	height: 1rem;
+	background: url(../images/libg1.png) no-repeat center;
+	background-size: 1.09rem;
+	position: relative;
+}
+li.on .day{
+	display: block;
+	position: absolute;
+	bottom:-0.8rem;
+	left:0;
+	margin-left:-0.5rem;
+	font-size: 0.4rem;
+	width:2rem;
+	color:orange;
+}
+.name p{
+	margin:0.2rem 0;
+	font-size: 0.43rem;
+}
+.name .integral{
+	font-size: 0.37rem;
+	color: #ddd;
+}
+.integral span{
+	color:#0cc;
+}
+.supplement_box{
+	margin-top:0.2rem;
+	padding:0.4rem 0 0.8rem 0.4rem;
+	background: #fff;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+.supplement_box  .titile{
+	margin-top:0.2rem;
+	font-style: 0.45rem;
+	font-weight: 600;
+	line-height: 1rem;
+	height: 1rem;
+	border-bottom:1px solid #ddd;
+}
+.supplement_box .supplement{
+	padding-top:0.2rem;
+	line-height: 1.8;
+	text-align: justify;
+	padding-right: 0.2rem;
+}
+.btn{
+	background:#0cc;
+	width: 100%;
+	height:1.07rem;
+	font-size: 0.45rem;
+	text-align: center;
+	line-height: 1.07rem;
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	color:#fff; 
+}
